@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "indian-stock-market-mcp-server"
+version = "1.0.0"
+description = "Indian stock market MCP server in Python — NSE & BSE stock prices, Nifty 50 / Sensex data, fundamentals, screener, FII/DII and options for Claude, ChatGPT, Cursor and any AI agent."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Hitesh Sisara" }]
+# All logic lives in the official Tapetide package; this repo is a launcher.
+dependencies = ["tapetide-mcp==1.0.0"]
+
+[project.urls]
+Homepage = "https://tapetide.com/mcp"
+Repository = "https://github.com/Hitesh-Sisara/indian-stock-market-mcp-server"
+"Official package" = "https://pypi.org/project/tapetide-mcp/"
+
+[project.scripts]
+indian-stock-market-mcp-server = "indian_stock_market_mcp_server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/indian_stock_market_mcp_server"]
