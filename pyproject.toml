@@ -12,7 +12,7 @@ license-files = ["LICENSE"]
 requires-python = ">=3.10"
 authors = [{ name = "Hitesh Sisara" }]
 # All logic lives in the official Tapetide package; this repo is a launcher.
-dependencies = ["tapetide-mcp==1.0.0"]
+dependencies = ["tapetide-mcp==1.0.1"]
 
 [project.urls]
 Homepage = "https://tapetide.com/mcp"
