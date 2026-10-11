@@ -1,13 +1,16 @@
 # Indian Stock Market MCP Server (Python)
 
-**An MCP server that gives Claude, ChatGPT, Cursor and other AI agents live Indian stock market data: NSE and BSE share prices, Nifty 50 and Sensex, company fundamentals, a stock screener, FII/DII flows, option chains and more.**
+**An Indian stock market MCP server that gives Claude, ChatGPT, Cursor, VS Code, Codex, Gemini CLI and other AI agents live data on every NSE and BSE stock: share prices, Nifty 50 and Sensex, company fundamentals, a stock screener, FII/DII flows, option chains and more.**
 
 [![PyPI](https://img.shields.io/pypi/v/tapetide-mcp?label=pypi%20tapetide-mcp)](https://pypi.org/project/tapetide-mcp/)
 [![npm](https://img.shields.io/npm/v/tapetide-mcp?label=npm%20tapetide-mcp)](https://www.npmjs.com/package/tapetide-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-com.tapetide%2Fstock--research--mcp-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=com.tapetide/stock-research-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 
 Ask your AI assistant things like *"What's the Reliance share price today?"*, *"Show the Nifty 50 PE ratio vs its 10-year average"*, or *"Find small-cap stocks with ROE above 20% and low debt"* and get answers from real market data instead of stale training data.
+
+**55 tools** · **8,200+ NSE/BSE stocks** · **free tier** · [setup guides for 16 clients](https://tapetide.com/mcp)
 
 The server is powered by [Tapetide](https://tapetide.com/mcp) and runs on the official [`tapetide-mcp`](https://pypi.org/project/tapetide-mcp/) Python package.
 
@@ -43,6 +46,22 @@ Using claude.ai, ChatGPT, Gemini or Grok in the browser? Add `https://mcp.tapeti
 ```bash
 uvx --from git+https://github.com/Hitesh-Sisara/indian-stock-market-mcp-server indian-stock-market-mcp-server
 ```
+
+## Works with
+
+Step-by-step setup guides for every major MCP client:
+
+| Chat apps | Code editors & IDEs | Terminal agents |
+|---|---|---|
+| [Claude.ai](https://tapetide.com/mcp/claude-ai) | [Cursor](https://tapetide.com/mcp/cursor) | [Claude Code](https://tapetide.com/mcp/claude-code) |
+| [ChatGPT](https://tapetide.com/mcp/chatgpt) | [VS Code (GitHub Copilot)](https://tapetide.com/mcp/vscode) | [Codex CLI](https://tapetide.com/mcp/codex) |
+| [Claude Desktop](https://tapetide.com/mcp/claude-desktop) | [Windsurf](https://tapetide.com/mcp/windsurf) | [Gemini CLI](https://tapetide.com/mcp/gemini-cli) |
+| [Grok](https://tapetide.com/mcp/grok) | [Kiro](https://tapetide.com/mcp/kiro) | [OpenCode](https://tapetide.com/mcp/opencode) |
+| | [Zed](https://tapetide.com/mcp/zed) | [Command Code](https://tapetide.com/mcp/commandcode) |
+| | [Cline](https://tapetide.com/mcp/cline) | |
+| | [Antigravity](https://tapetide.com/mcp/antigravity) | |
+
+Any other client that speaks the Model Context Protocol works too, over remote HTTP or local stdio.
 
 ## What you can ask
 
