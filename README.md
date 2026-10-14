@@ -99,7 +99,7 @@ Any other client that speaks the Model Context Protocol works too, over remote H
 
 ## FAQ
 
-**Is it free?** Yes. The free plan includes 50 tool calls a day and 1,000 a month. See [tapetide.com/pricing](https://tapetide.com/pricing) for higher limits.
+**Is it free?** Yes. The free plan includes 50 tool calls a day, with no monthly cap. See [tapetide.com/pricing](https://tapetide.com/pricing) for higher limits.
 
 **Is the data real-time?** Quotes are live during market hours. Fundamentals, flows and filings update as they are published.
 
