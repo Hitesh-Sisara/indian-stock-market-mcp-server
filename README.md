@@ -10,7 +10,7 @@
 
 Ask your AI assistant things like *"What's the Reliance share price today?"*, *"Show the Nifty 50 PE ratio vs its 10-year average"*, or *"Find small-cap stocks with ROE above 20% and low debt"* and get answers from real market data instead of stale training data.
 
-**55 tools** · **8,200+ NSE/BSE stocks** · **free tier** · [setup guides for 16 clients](https://tapetide.com/mcp)
+**55 tools** · **8,200+ NSE/BSE stocks** · **free for your first 7 days** · [setup guides for 16 clients](https://tapetide.com/mcp)
 
 The server is powered by [Tapetide](https://tapetide.com/mcp) and runs on the official [`tapetide-mcp`](https://pypi.org/project/tapetide-mcp/) Python package.
 
@@ -99,7 +99,7 @@ Any other client that speaks the Model Context Protocol works too, over remote H
 
 ## FAQ
 
-**Is it free?** Yes. The free plan includes 50 tool calls a day, with no monthly cap. See [tapetide.com/pricing](https://tapetide.com/pricing) for higher limits.
+**Is it free?** It is free to try. A new account gets 100 tool calls a day for the first 7 days after signup. After that, tool calls need a paid plan. See [tapetide.com/pricing](https://tapetide.com/pricing).
 
 **Is the data real-time?** Quotes are live during market hours. Fundamentals, flows and filings update as they are published.
 
